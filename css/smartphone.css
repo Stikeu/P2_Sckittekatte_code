@@ -1,0 +1,214 @@
+@media screen and (max-width:768px) {
+    body {
+        font-size: 13px
+    }
+
+    .nav-header {
+        flex-direction: column;
+    }
+
+    .logoSite {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ulnav>li {
+        border-bottom: 2px solid rgb(219, 219, 219);
+        padding: 5px 30px;
+    }
+
+    .ulnav>li:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    .premier {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .titre-premier {
+        width: 90%;
+    }
+
+    .para-premier {
+        margin-right: 50px;
+    }
+
+    .search-map>.icone-map {
+        padding: 9px 14px;
+        font-size: 15px;
+    }
+
+    .search-zone {
+        display: none;
+    }
+
+    .search-zone-icone {
+        display: block;
+    }
+
+    .filtres {
+        align-items: baseline;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .filtres>h1 {
+        padding-left: 20px;
+    }
+
+    .bloc-hebergement {
+        margin: 0px;
+    }
+
+    .bloc-hebergement-main {
+        background-color: white;
+    }
+
+    .bloc-hebergement-main div {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .hebergement-marseille {
+        width: 100%;
+    }
+
+    .hebergement-marseille>img {
+        height: 140px;
+    }
+
+    .blocActivites {
+        flex-direction: column;
+        margin-bottom: 23%;
+    }
+
+    .firstBlock {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .secondBlock {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 23%;
+    }
+
+    .giantCard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .giantCard>img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .doubleCard {
+        width: 100%;
+        height: 486px;
+    }
+
+    .doubleCardFirst {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .doubleCardSecond {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 23%;
+    }
+
+    .doubleCardFirst>img {
+        height: 200px;
+    }
+
+    .doubleCardSecond>img {
+        height: 200px;
+    }
+
+    .doubleCardSecondFirst {
+        height: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .doubleCardSecondFirst>img {
+        height: 200px;
+    }
+
+    .doubleCardSecondSecond {
+        width: 100%;
+        height: 100%;
+    }
+
+    .doubleCardSecondSecond>img {
+        height: 200px;
+    }
+
+    .footerPage {
+        flex-direction: column;
+    }
+
+    .nav-footer {
+        width: 100%;
+    }
+
+    .titleBlocActivites {
+        margin-left: 17px;
+    }
+
+    .plus-populaires>figcaption {
+        flex-wrap: nowrap;
+        align-content: normal;
+        flex-direction: column;
+        width: 61%;
+    }
+
+    .starAside {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .hostingMainHeaderTitle{
+        padding-left:38px ;
+    }
+    .bottom-hebergement{
+        padding-left: 43px;
+    }
+    .plus-populaires{
+        height: 120px;
+    }
+    .plus-populaires>img{
+        width: 34%;
+    }
+    .responsiveSmart{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .button-filtre{
+        margin-left: 3px;
+    }
+    .search-map>.search-zone{
+        border-radius: 10px;
+        margin-left: -10px;
+        padding: 10px 17px;
+    }
+    .input-search{
+        width: 178px;
+    }
+    .filtres>h1{
+        padding-left: 0px;
+    }
+
+}

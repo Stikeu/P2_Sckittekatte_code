@@ -1,0 +1,27 @@
+@media screen and (max-width:992px) {
+    .bloc-hebergement {
+        flex-direction: column-reverse;
+    }
+
+    .aside-populaire {
+        width: 100%;
+    }
+    .starAside {
+        font-size: 20px;
+    }
+
+    .bloc-hebergement-main div{
+        margin-left:0px;
+    }
+
+    .bloc-hebergement-main{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .hebergement-marseille{
+        width: 23%;
+    }
+    .doubleCardFirst{
+        height: 250px;
+    }
+}
